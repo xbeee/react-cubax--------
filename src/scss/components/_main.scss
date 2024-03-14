@@ -1,0 +1,74 @@
+// Header
+.header {
+    padding-top: 45px;
+
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 4%;
+}
+.header__row {
+    display: flex;
+    justify-content: space-between;
+}
+.nav__list {
+    display: flex;
+    column-gap: 55px;
+}
+.nav__item {
+    color: $header-link-non-active;
+    font-family: $font-demi;
+    text-transform: uppercase;
+}
+.nav__item--active {
+    font-family: $font-bold;
+    color: $header-link-active;
+
+    position: relative;
+
+    &::before{
+        position: absolute;
+        left: 50%;
+        bottom: -120%;
+        content: url(../img/infographics/hand.png);
+    }
+}
+.header__phone {
+    color: $black;
+    font-family: $font-bold;
+
+    display: flex;
+    column-gap: 10px;
+    &>img{
+        max-width: 22px;
+        max-height: 22px;
+    }
+}
+
+
+// main
+.main{
+    position: relative;
+}
+// info
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+.info__text {
+
+}
+.info__title {
+
+}
+.info-subtitle {
+
+}
+.info-subtitle__content {
+
+}
+.info-subtitle__text {
+
+}
+.info__subtitle__btn {
+
+}

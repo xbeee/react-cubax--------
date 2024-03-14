@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "light";
+    src: url(../fonts/avenirnextcyr-light.ttf) format('truetype');
+}
+@font-face {
+    font-family: "regular";
+    src: url(../fonts/avenirnextcyr-regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: "medium";
+    src: url(../fonts/avenirnextcyr-medium.ttf) format('truetype');
+}
+@font-face {
+    font-family: "demi";
+    src: url(../fonts/avenirnextcyr-demi.ttf) format('truetype');
+}
+@font-face {
+    font-family: "bold";
+    src: url(../fonts/avenirnextcyr-bold.ttf) format('truetype');
+}
+
+.container{
+    padding: 0 200px;
+    margin: 0 auto;
+    max-width: 1522px;
+}
+
+.background__img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+    width: 100%;
+}

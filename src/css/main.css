@@ -1,0 +1,177 @@
+@font-face {
+  font-family: "light";
+  src: url(../fonts/avenirnextcyr-light.ttf) format("truetype");
+}
+@font-face {
+  font-family: "regular";
+  src: url(../fonts/avenirnextcyr-regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "medium";
+  src: url(../fonts/avenirnextcyr-medium.ttf) format("truetype");
+}
+@font-face {
+  font-family: "demi";
+  src: url(../fonts/avenirnextcyr-demi.ttf) format("truetype");
+}
+@font-face {
+  font-family: "bold";
+  src: url(../fonts/avenirnextcyr-bold.ttf) format("truetype");
+}
+.container {
+  padding: 0 200px;
+  margin: 0 auto;
+  max-width: 1522px;
+}
+
+.background__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -10;
+  width: 100%;
+}
+
+/* Reset and base styles  */
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Links */
+a, a:link, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Common */
+aside, nav, footer, header, section, main {
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul, ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+img, svg {
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+input, textarea, button, select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button, input[type=submit] {
+  display: inline-block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  display: block;
+}
+
+.header {
+  padding-top: 45px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 4%;
+}
+
+.header__row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__list {
+  display: flex;
+  -moz-column-gap: 55px;
+       column-gap: 55px;
+}
+
+.nav__item {
+  color: "#828282";
+  font-family: "demi";
+  text-transform: uppercase;
+}
+
+.nav__item--active {
+  font-family: "bold";
+  color: "#000";
+  position: relative;
+}
+.nav__item--active::before {
+  position: absolute;
+  left: 50%;
+  bottom: -120%;
+  content: url(../img/infographics/hand.png);
+}
+
+.header__phone {
+  color: "#000";
+  font-family: "bold";
+  display: flex;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+.header__phone > img {
+  max-width: 22px;
+  max-height: 22px;
+}
+
+.main {
+  position: relative;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=main.css.map */
